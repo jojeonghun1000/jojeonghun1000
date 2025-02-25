@@ -8,12 +8,12 @@ if (location.host == "zep-kkutu.online"){
 }else{
 	words = KKuTu;
 }
-}else if (location.host == "kkutu.co.kr"){
+/*}else if (location.host == "kkutu.co.kr"){
 console.log("끄투코리아 전용 db를 가져오겠습니다.");
 words = KKuKo;
 }else if (location.host == "kkutu.be"){
 console.log("끄튜브 전용 db를 가져오겠습니다.");
-words = Club;
+words = Club;*/
 }
 if (location.host != "kkutu.co.kr" && location.host != "kkutu.club"){
 console.log("일반 끄투 전용 한방 필터링을 가져오겠습니다.");
